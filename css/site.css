@@ -6,6 +6,7 @@
   --tertiary-color: #F0BD60;
   --tertiary-color-transparent: #F0BD60dd;
   --light-color: #fff;
+  --dark-color: #020202;
   --link-color: #F6D110;
 }
 
@@ -100,6 +101,14 @@ a:hover{
   color: var(--light-color);
   font-size: 1.3em;
   font-weight: 600;
+  padding-top: 0.7em;
+}
+
+.card-body,    
+.card-body p {
+  color: var(--dark-color);
+  font-size: 1em;
+  font-weight: 400;
   padding-top: 0.7em;
 }
 
@@ -215,6 +224,16 @@ footer,
     background-size: cover;
 }
 
+.leads {
+  background: url("../images/nationals.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.coaches {
+  background: url("../images/team.jpg") no-repeat center ;
+    background-size: cover;
+}
+
 
 .faq {
     background: url("../images/RegionalMap_PNG.webp") no-repeat center ;
@@ -222,7 +241,7 @@ footer,
 }
 
 .contact {
-  background: url("../images/AdobeStock_177731417.jpeg") no-repeat bottom ;
+  background: url("../images/contact.jpeg") no-repeat bottom ;
     background-size: cover;
 }
 
